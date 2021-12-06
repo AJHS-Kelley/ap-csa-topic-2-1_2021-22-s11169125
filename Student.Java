@@ -9,7 +9,7 @@ public class student {
     private int gradeLevel;
     private double gradePointAvg;
     private String studentName;
-
+    //i have this 
 
     // Creating a Constructor 
     public Student() {
@@ -50,4 +50,22 @@ public class student {
         double newGPA;
 
 
-        
+        Scanner myScanner = new Scanner (System.in);
+
+        System.out.println("What is the first grade?")
+        garde0 = myScanner.nextInt();
+        System.out.println("What is the first grade?")
+        grade1 = myScanner.nextInt();
+        System.out.println("What is the first grade?")
+        grade2 = myScanner.nextInt();
+        System.out.println("What is the first grade?")
+        grade3 = myscanner.nextInt();
+
+
+        newGPA = (garde0 + grade1 + grade + grade3) / 4;
+        system.out.print("The new GPA is");
+        system.out.println(newGPA);
+    }
+
+        //i need assign lunch/ assign luch multiply /math practice 
+
