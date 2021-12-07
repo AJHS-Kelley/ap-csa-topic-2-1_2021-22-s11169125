@@ -107,3 +107,23 @@ public class student {
            { else if (gardeLevel == 11 && (gradePointAvg != 0.0))
                 lunchPeriod = "Third Lunch";
                 System.out.print("This student has ");
+            } else {
+                lunchPeriod = "Off-Campus Lunch";
+                System.out.print("This student has ");
+                System.out.println(lunchPeriod);
+            }
+        }
+        
+        public static void mathPractice() {
+            int x;
+            int y;
+            Scanner myScanner = new Scanner(System.in);
+            System.out.println("Type an integer and press enter.\n");
+            x = myScanner.nextInt();
+            System.out.println("Type an integer and press enter.\n");
+            y = myScanner.nextInt();
+            System.out.println(Math.min(x,y));
+
+            int lowest;
+            lowest = Math.min(x,y);
+            System.out.println(lowest);
