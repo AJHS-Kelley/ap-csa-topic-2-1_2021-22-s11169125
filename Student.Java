@@ -88,4 +88,22 @@ public class student {
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         }
-    
+        
+        public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
+            String lunchPeriod;
+            // AND, OR, NOT -- Boolean Operators
+            // && -- AND
+            // || -- OR
+            // | -- NOT
+
+            if (gradeLevel == 9 || gradePointAvg <= 1.5) {
+                lunchPeriod = "Frist Lunch";
+                System.out.print("This student has ");
+                System.out.println(lunchPeriod);
+           { else if (gradeLevel == 10 && gradePointAvg > 2.0) {
+               lunchPeriod = "Second Lunc[h";
+               System.out.print("This student has ");
+               System.out.println(lunchPeriod);
+           { else if (gardeLevel == 11 && (gradePointAvg != 0.0))
+                lunchPeriod = "Third Lunch";
+                System.out.print("This student has ");
