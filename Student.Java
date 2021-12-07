@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, 11/05/21, version 0.4 
+// Unit 2, 12/06/21, version 0.5 
 
 
 public class student {
@@ -67,5 +67,25 @@ public class student {
         system.out.println(newGPA);
     }
 
-        //i need assign lunch/ assign luch multiply /math practice 
+        // Parameters and Arguments
+    public static void assignLunch(int gradeLevel) {
+        String lunchPeriod;
 
+        if (gradeLevel ==9) {
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 10) {
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 11) {
+            lunchPeriod ="Thrid Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else {
+            lunchPeriod = "Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+    
